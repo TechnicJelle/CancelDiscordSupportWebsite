@@ -1,3 +1,3 @@
 #!/bin/bash
 
-zip --recurse-paths --filesync "${PWD##*/}.xpi" ./* --exclude '*.git*'
+zip --recurse-paths --filesync "${PWD##*/}.xpi" ./* --exclude '*.git*' --exclude '*.sh'
