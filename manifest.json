@@ -12,7 +12,6 @@
 	},
 
 	"permissions": [
-		"*://support.discord.com/*",
 		"webNavigation",
 		"tabs"
 	],
