@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Cancel Discord Support Website",
+	"version": "1.0",
+
+	"description": "Quickly closes the Discord Support page after being opened through a misclick..",
+
+	"icons": {
+		"48": "icons/logo-48.png"
+	},
+
+	"permissions": [
+		"*://support.discord.com/*",
+		"tabs"
+	],
+
+	"background": {
+		"scripts": ["script.js"],
+		"persistent": false,
+		"type": "module"
+	}
+}
