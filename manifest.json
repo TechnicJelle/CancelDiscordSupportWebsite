@@ -2,6 +2,8 @@
 	"manifest_version": 2,
 	"name": "Cancel Discord Support Website",
 	"version": "1.0",
+	"author": "TechnicJelle",
+	"homepage_url": "https://github.com/TechnicJelle/CancelDiscordSupportWebsite",
 
 	"description": "Quickly closes the Discord Support page after being opened through a misclick..",
 
@@ -19,5 +21,11 @@
 		"scripts": ["script.js"],
 		"persistent": false,
 		"type": "module"
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "CancelDiscordSupportWebsite@TechnicJelle.com"
+		}
 	}
 }
